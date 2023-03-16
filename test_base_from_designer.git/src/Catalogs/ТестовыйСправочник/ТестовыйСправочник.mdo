@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a0ce1dd-d8c3-4cea-989a-1dc16d4c48a1">
+  <producedTypes>
+    <objectType typeId="4e5e148a-67ea-4450-a126-1924028e4dad" valueTypeId="afabb882-d8b0-45d3-8f57-ce9851b552c2"/>
+    <refType typeId="262214a4-b16d-48ac-ade9-22af6706aac1" valueTypeId="c27318cd-40e8-4601-af24-0b6d60030a19"/>
+    <selectionType typeId="8be10434-41b0-40b3-9cd8-bd31e2adc3c7" valueTypeId="72bc9631-434b-4ff7-bb2d-b8973514f8f6"/>
+    <listType typeId="3308a8be-0b48-4221-983b-697c616d49cd" valueTypeId="c373a71d-434a-46c7-9b64-f1847853640c"/>
+    <managerType typeId="9a73452b-d21e-4739-9fe6-7c4c7f181f1f" valueTypeId="b499294d-a92e-4c92-9524-206eee29f5db"/>
+  </producedTypes>
+  <name>ТестовыйСправочник</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестовый справочник</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТестовыйСправочник.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТестовыйСправочник.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ff757864-90d5-46e8-8fe1-bc84aa3e0ba6">
+    <name>Реквизит1</name>
+    <type>
+      <types>DocumentRef.ТестовыйДокумент</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
